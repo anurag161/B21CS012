@@ -117,3 +117,27 @@ Welcome to the XV Quiz for CSL 3030 - Operating Systems!
 
 ## Answers
 Please write your answers here
+Answers
+
+1. b
+2. c
+3. d
+4. b
+5. a
+6. c
+7. a
+8. a
+9. d
+10. b
+11. c
+12. In xv-6, a process is divided into three states Runnable, sleeping and running . Running state means the program is currently executing , sleeping means process is waiting for an event and Runnable mean s process is ready to run but waiting for cpu.
+13. The XV6 file system contain three things: inodes, blocks, and folders. Inodes store information about files, blocks store the data itself, and folders connect file names to inode numbers.
+14. When a computer wants to do something, like open a file, it makes a system call to the os. Library functions are more advanced functions that makes our life easy. They usually stand on top of system calls. fopen() is a library method, while open() is a system call.
+15. XV6 has a paging system that divides virtual memory into pages of a set size and physical memory into frames that match. Paging makes good use of memory, helps keep processes separate, and makes features like demand paging possible.
+16. ls: Lists the files in the current directory.
+    cp: Copies files or directories.
+    rm: Removes (deletes) files or directories.
+17. Process synchronization is used to handle multiple processes running smoothly and without any bug. In XV6, locks and semaphores are used to make sure that everyone has the same time to access shared resources and to avoid race situations.
+18. Events called interrupts make the CPU give temporary control to a different piece of code. In XV6, interrupts are managed by interrupt service routines (ISRs). 
+19. When you use virtual memory to manage your memory, it creates a "idealized abstraction" of the storage resources that happen on your computer. XV6 uses paging to create virtual memory. Process isolation makes it easy to write programs and makes good use of memory.
+20. In the boot process, the BIOS or UEFI firmware sets up the hardware, loads the bootloader (like GRUB), and then puts the XV6 kernel into memory. The kernel takes over, sets up the necessary data structures, and begins the initialization process. Eventually, it moves to the user area and starts the shell.
